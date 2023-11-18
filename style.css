@@ -19,13 +19,16 @@
 }
 
 body {
-    background-color: skyblue;
+    background-color: var(--cream);
     /* the bg color would be the same as your 
         quote section bg color */
     color: black;
 }
 
-
+h2,
+p {
+    padding: 15px;
+}
 
 .LandingPage {
     background-image: url(images/i.jpeg);
@@ -86,18 +89,52 @@ header h1 {
 
 
 /***  QUOTE SECTION ***/
-
+.quoteSection {
+    background-color: var(--brown);
+    margin-top: 170px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    color: white;
+}
 
 
 /***  CARDS ***/
 .column img {
-    height: 200px
+    height: 170px;
+    width: 250px;
 }
 
+.row {
+    background-color: var(--cream);
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.column {
+    background-color: var(--brown);
+    margin: 50px 0px;
+    width: 290px;
+}
+
+.content_wrap {
+    margin: 20px;
+    background-color: var(--brown);
+    color: var(--cream);
+}
 
 /***  LAST SECTION ***/
 
-
+.last_content {
+    background-color: var(--brown);
+    margin-top: 40px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 60px;
+}
 
 /***  FOOTER ***/
 
